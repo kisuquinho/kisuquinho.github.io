@@ -1,0 +1,76 @@
+// font-family: 'Play', sans-serif;
+// font-family: 'Poppins', sans-serif;
+$light: 300;
+$medium: 500;
+$s-bold: 600;
+$x-bold: 800;
+
+$regular: 400;
+
+h1, h2, h3, h4, h5, h6, p {
+    color: $neutral-white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: $x-bold;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-family: 'Play', sans-serif;
+    font-weight: $regular;
+}
+
+h3 {
+    font-size: 2rem;
+    font-family: 'Play', sans-serif;
+    font-weight: $regular;
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: $s-bold;
+}
+
+h6 {
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: $medium;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: $medium;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: $x-bold;
+    text-align: unset;
+}
+
+.soon {
+    font-size: 1.25rem;
+    font-family: 'Play', sans-serif;
+    font-weight: $regular;
+    color: $neutral-black;
+}
+
+main {
+    p {
+        color: transparentize($color: $neutral-white, $amount: .1);
+    }
+}
+
+footer {
+    p {
+        color: transparentize($color: $neutral-white, $amount: .5);
+        font-weight: $light;
+    }
+}

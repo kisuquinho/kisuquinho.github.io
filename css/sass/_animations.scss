@@ -1,0 +1,50 @@
+main > p::after {
+    content: '|';
+    animation: typing .5s linear infinite alternate;
+    opacity: .5;
+}
+
+@keyframes typing {
+    0%, 50% {
+        opacity: 0;
+    }
+    51%, 100% {
+        opacity: 1;
+    }
+}
+
+.marquee {
+    background-color: $primary;
+    height: 72px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+
+    .marquee-items {
+        display: flex;
+        animation: marquee 24s linear infinite alternate;
+    }
+
+    h3::after {
+        content: "";
+        display: inline-block;
+        // margin-left: 32px;
+        margin: 0 32px;
+        height: 32px;
+        width: 3px;
+        transform: translateY(4px);
+        background: $neutral-white;
+    }
+
+    @keyframes marquee {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+}
