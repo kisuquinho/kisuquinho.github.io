@@ -97,6 +97,10 @@ main {
 
         .languages-icons {
             margin: 40px 0px 48px 0px;
+            display: flex;
+            gap: 36px;
+            justify-content: center;
+            flex-wrap: wrap;
         }
     }
 
@@ -108,6 +112,10 @@ main {
 
         .tools-icons {
             margin: 48px 0px 40px 0px;
+            display: flex;
+            gap: 36px;
+            justify-content: center;
+            flex-wrap: wrap;
         }
     }
 }
@@ -224,7 +232,7 @@ main {
 
     .links {
         display: flex;
-        column-gap: 160px;
+        column-gap: 120px;
 
         .column {
             display: flex;
@@ -244,6 +252,20 @@ main {
                     border-radius: 4px;
                     display: grid;
                     place-content: center;
+                    transform-origin: 50% 100%;
+                    transition: .5s ease;
+
+                    &:hover {
+                        transform: scale(1.075);
+                    }
+                }
+
+                a {
+                    transition: .5s ease;
+
+                    &:hover {
+                        transform: translateX(8px);
+                    }
                 }
             }
         }
@@ -268,7 +290,8 @@ footer {
 @media screen and (max-width: 540px){
     .contact {
         .links {
-            column-gap: 80px;
+            flex-direction: column;
+            row-gap: 24px;
         }
     }
 }

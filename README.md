@@ -1,3 +1,3 @@
 # Joyci | Personal Portfolio Website
 
-#### Build using HTML & Sass(Scss).
+#### Built using HTML, Sass(Scss) and the JavaScript animation library GSAP.

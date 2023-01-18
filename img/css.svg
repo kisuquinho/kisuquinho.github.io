@@ -1,0 +1,18 @@
+<svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="css">
+<rect id="Rectangle 63" x="2" y="2" width="64" height="64" rx="6" fill="url(#paint0_linear_585_36)" stroke="url(#paint1_linear_585_36)" stroke-width="3"/>
+<g id="css3-plain 1">
+<path id="Vector" d="M16.7373 16.2812L19.8795 48.0296L33.9789 51.5677L48.1176 48.0167L51.2623 16.2812H16.7373ZM44.7345 23.5549L43.6886 34.1313L43.6917 34.1884L43.6873 34.3198V34.3187L42.9442 41.7138L42.8623 42.3708L33.9998 44.577V44.5773L33.9929 44.5826L25.1457 42.3641L24.5467 36.25H28.8851L29.1929 39.3589L34.0011 40.5317L33.9998 40.534V40.5334L38.8257 39.344L39.3357 34.2812H29.2473L29.1607 33.4254L28.9636 31.4204L28.8601 30.3438H39.7192L40.1142 26.4062H23.5748L23.4882 25.551L23.2914 23.5454L23.1876 22.4688H44.8379L44.7345 23.5549V23.5549Z" fill="#F1F1F1"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_585_36" x1="2" y1="2" x2="66" y2="68.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#732EB8"/>
+<stop offset="1" stop-color="#732EB8" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_585_36" x1="2" y1="2" x2="66" y2="68.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#732EB8"/>
+<stop offset="1" stop-color="#732EB8" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

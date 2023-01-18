@@ -1,1 +1,460 @@
-h1,h2,h3,h4,h5,h6,p{color:#F1F1F1;text-align:center}h1{font-size:3rem;font-family:'Poppins', sans-serif;font-weight:800}h2{font-size:2.25rem;font-family:'Play', sans-serif;font-weight:400}h3{font-size:2rem;font-family:'Play', sans-serif;font-weight:400}h5{font-size:1.5rem;font-family:'Poppins', sans-serif;font-weight:600}h6{font-size:1.25rem;font-family:'Poppins', sans-serif;font-weight:500}p{font-size:1rem;font-family:'Poppins', sans-serif;font-weight:500}.logo{font-size:1.5rem;font-family:'Poppins', sans-serif;font-weight:800;text-align:unset}.soon{font-size:1.25rem;font-family:'Play', sans-serif;font-weight:400;color:#17141F}main p{color:rgba(241,241,241,0.9)}footer p{color:rgba(241,241,241,0.5);font-weight:300}main>p::after{content:'|';animation:typing .5s linear infinite alternate;opacity:.5}@keyframes typing{0%,50%{opacity:0}51%,100%{opacity:1}}.marquee{background-color:#732EB8;height:72px;display:flex;justify-content:flex-start;align-items:center;overflow:hidden;white-space:nowrap;width:100%}.marquee .marquee-items{display:flex;animation:marquee 24s linear infinite alternate}.marquee h3::after{content:"";display:inline-block;margin:0 32px;height:32px;width:3px;transform:translateY(4px);background:#F1F1F1}@keyframes marquee{0%{transform:translateX(0)}100%{transform:translateX(-100%)}}*{margin:0;padding:0;box-sizing:border-box}body{width:100%;background:#17141F;display:flex;justify-content:center;align-items:flex-start;flex-direction:column}header{height:fit-content;width:100%;border-bottom:1px solid rgba(241,241,241,0.5);display:flex;justify-content:center;align-items:flex-start}header .logo-container{width:100%;max-width:1200px}header .logo{margin:20px 48px}main{height:618px;width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column}main .title{position:relative;margin-bottom:18px}main .text-bg{position:absolute;z-index:-1;height:24px;width:calc(100% + 32px);bottom:6px;left:50%;transform:translateX(-50%);background:linear-gradient(90deg, #732EB8 0%, rgba(115,46,184,0) 100%)}main p{max-width:360px}.section-title{position:relative;margin-bottom:4px}.section-title .section-t-bg{position:absolute;z-index:-1;height:24px;width:calc(100% + 32px);bottom:-4px;left:50%;transform:translateX(-50%);background:linear-gradient(90deg, #732EB8 0%, rgba(115,46,184,0) 100%)}.l-tools{width:100%;max-width:640px;margin:0 auto;display:flex;justify-content:center;flex-direction:column;align-items:center;padding:96px 0px}.l-tools .languages{border-bottom:1px solid rgba(241,241,241,0.5);width:100%;display:flex;flex-direction:column;justify-content:center;align-items:center}.l-tools .languages .languages-icons{margin:40px 0px 48px 0px}.l-tools .tools{display:flex;flex-direction:column;justify-content:center;align-items:center}.l-tools .tools .tools-icons{margin:48px 0px 40px 0px}.projects{width:100%;margin:0 auto;display:flex;gap:48px;justify-content:center;flex-direction:column;align-items:center;padding:96px 0px;border-top:1px solid rgba(241,241,241,0.5)}.projects .p-items{display:flex;gap:40px}.projects .p-items .p-box{width:218px;height:131px;background-color:#F1F1F1;border-radius:8px;position:relative;cursor:pointer}.projects .p-items .p-box .soon{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);pointer-events:none}.projects .p-items .p-box::before{content:'';z-index:-1;width:60px;height:40px;position:absolute;bottom:0px;left:0px;background-color:#732EB8;border-radius:8px;transition:.5s ease}.projects .p-items .p-box::after{content:'';z-index:-1;width:60px;height:40px;position:absolute;top:0px;right:0px;background-color:#732EB8;border-radius:8px;transition:.5s ease}.projects .p-items .p-box:hover::before{content:'';z-index:-1;width:60px;height:40px;position:absolute;bottom:-8px;left:-8px;background-color:#732EB8;border-radius:8px}.projects .p-items .p-box:hover::after{content:'';z-index:-1;width:60px;height:40px;position:absolute;top:-8px;right:-8px;background-color:#732EB8;border-radius:8px}.contact{width:100%;margin:0 auto;display:flex;justify-content:center;flex-direction:column;align-items:center;padding:96px 0px;border-top:1px solid rgba(241,241,241,0.5)}.contact .email{position:relative;padding:40px 0px}.contact .email .email-bg{z-index:-1;background-color:#732EB8;width:calc(100% + 32px);height:6px;position:absolute;top:54%;left:50%;transform:translate(-50%, 0px)}.contact .links{display:flex;column-gap:160px}.contact .links .column{display:flex;gap:24px;flex-direction:column;justify-content:space-between}.contact .links .column .link{display:flex;gap:28px;align-items:center}.contact .links .column .link .icon{width:40px;height:40px;background-color:#F1F1F1;border-radius:4px;display:grid;place-content:center}footer{width:100%;border-top:1px solid rgba(241,241,241,0.5)}footer p{padding:10px 0px}@media screen and (max-width: 768px){.p-items{flex-direction:column}}@media screen and (max-width: 540px){.contact .links{column-gap:80px}}
+/* line 10, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_typography.scss */
+h1, h2, h3, h4, h5, h6, a, p {
+  color: #F1F1F1;
+  text-align: center;
+}
+
+/* line 15, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_typography.scss */
+h1 {
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+/* line 21, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_typography.scss */
+h2 {
+  font-size: 2.25rem;
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+}
+
+/* line 27, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_typography.scss */
+h3 {
+  font-size: 2rem;
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+}
+
+/* line 33, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_typography.scss */
+h5 {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* line 39, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_typography.scss */
+a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+/* line 46, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_typography.scss */
+p {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+/* line 52, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_typography.scss */
+.logo {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  text-align: unset;
+  pointer-events: none;
+}
+
+/* line 60, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_typography.scss */
+.soon {
+  font-size: 1.25rem;
+  font-family: 'Play', sans-serif;
+  font-weight: 400;
+  color: #17141F;
+}
+
+/* line 68, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_typography.scss */
+main p {
+  color: rgba(241, 241, 241, 0.9);
+}
+
+/* line 74, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_typography.scss */
+footer p {
+  color: rgba(241, 241, 241, 0.5);
+  font-weight: 300;
+}
+
+/* line 1, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_animations.scss */
+main > p::after {
+  content: '|';
+  animation: typing .5s linear infinite alternate;
+  opacity: .5;
+}
+
+@keyframes typing {
+  0%, 50% {
+    opacity: 0;
+  }
+  51%, 100% {
+    opacity: 1;
+  }
+}
+
+/* line 16, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_animations.scss */
+.marquee {
+  background-color: #732EB8;
+  height: 72px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+/* line 26, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_animations.scss */
+.marquee .marquee-items {
+  display: flex;
+}
+
+/* line 30, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_animations.scss */
+.marquee h3 {
+  pointer-events: none;
+}
+
+/* line 33, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_animations.scss */
+.marquee h3::after {
+  content: "";
+  display: inline-block;
+  margin: 0 32px;
+  height: 32px;
+  width: 3px;
+  transform: translateY(4px);
+  background: #F1F1F1;
+}
+
+/* line 1, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 8, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+body {
+  width: 100%;
+  background: #17141F;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* line 17, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+header {
+  height: fit-content;
+  width: 100%;
+  border-bottom: 1px solid rgba(241, 241, 241, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* line 25, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+header .logo-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* line 30, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+header .logo {
+  margin: 20px 48px;
+}
+
+/* line 35, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+main {
+  height: 618px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* line 43, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+main .title {
+  position: relative;
+  margin-bottom: 18px;
+}
+
+/* line 48, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+main .text-bg {
+  position: absolute;
+  z-index: -1;
+  height: 24px;
+  width: calc(100% + 32px);
+  bottom: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #732EB8 0%, rgba(115, 46, 184, 0) 100%);
+}
+
+/* line 59, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+main p {
+  max-width: 360px;
+}
+
+/* line 64, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.section-title {
+  position: relative;
+  margin-bottom: 4px;
+}
+
+/* line 68, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.section-title .section-t-bg {
+  position: absolute;
+  z-index: -1;
+  height: 24px;
+  width: calc(100% + 32px);
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #732EB8 0%, rgba(115, 46, 184, 0) 100%);
+}
+
+/* line 80, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.l-tools {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px;
+}
+
+/* line 90, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.l-tools .languages {
+  border-bottom: 1px solid rgba(241, 241, 241, 0.5);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 98, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.l-tools .languages .languages-icons {
+  margin: 40px 0px 48px 0px;
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 107, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.l-tools .tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 113, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.l-tools .tools .tools-icons {
+  margin: 48px 0px 40px 0px;
+  display: flex;
+  gap: 36px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 123, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.projects {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px;
+  border-top: 1px solid rgba(241, 241, 241, 0.5);
+}
+
+/* line 134, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.projects .p-items {
+  display: flex;
+  gap: 40px;
+}
+
+/* line 138, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.projects .p-items .p-box {
+  width: 218px;
+  height: 131px;
+  background-color: #F1F1F1;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+/* line 146, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.projects .p-items .p-box .soon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+/* line 155, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.projects .p-items .p-box::before {
+  content: '';
+  z-index: -1;
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: #732EB8;
+  border-radius: 8px;
+  transition: .5s ease;
+}
+
+/* line 168, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.projects .p-items .p-box::after {
+  content: '';
+  z-index: -1;
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #732EB8;
+  border-radius: 8px;
+  transition: .5s ease;
+}
+
+/* line 181, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.projects .p-items .p-box:hover::before {
+  content: '';
+  z-index: -1;
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  bottom: -8px;
+  left: -8px;
+  background-color: #732EB8;
+  border-radius: 8px;
+}
+
+/* line 193, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.projects .p-items .p-box:hover::after {
+  content: '';
+  z-index: -1;
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: #732EB8;
+  border-radius: 8px;
+}
+
+/* line 207, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.contact {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0px;
+  border-top: 1px solid rgba(241, 241, 241, 0.5);
+}
+
+/* line 217, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.contact .email {
+  position: relative;
+  padding: 40px 0px;
+}
+
+/* line 221, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.contact .email .email-bg {
+  z-index: -1;
+  background-color: #732EB8;
+  width: calc(100% + 32px);
+  height: 6px;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, 0px);
+}
+
+/* line 233, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.contact .links {
+  display: flex;
+  column-gap: 120px;
+}
+
+/* line 237, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.contact .links .column {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* line 243, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.contact .links .column .link {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+/* line 248, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.contact .links .column .link .icon {
+  width: 40px;
+  height: 40px;
+  background-color: #F1F1F1;
+  border-radius: 4px;
+  display: grid;
+  place-content: center;
+  transform-origin: 50% 100%;
+  transition: .5s ease;
+}
+
+/* line 258, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.contact .links .column .link .icon:hover {
+  transform: scale(1.075);
+}
+
+/* line 263, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.contact .links .column .link a {
+  transition: .5s ease;
+}
+
+/* line 266, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+.contact .links .column .link a:hover {
+  transform: translateX(8px);
+}
+
+/* line 275, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+footer {
+  width: 100%;
+  border-top: 1px solid rgba(241, 241, 241, 0.5);
+}
+
+/* line 279, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+footer p {
+  padding: 10px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 285, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+  .p-items {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  /* line 292, ../../VSProjects/joyci/kisuquinho.github.io/css/sass/_layout.scss */
+  .contact .links {
+    flex-direction: column;
+    row-gap: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

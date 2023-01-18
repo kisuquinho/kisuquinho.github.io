@@ -1,0 +1,16 @@
+<svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="figma">
+<rect id="Rectangle 68" x="2" y="2" width="64" height="64" rx="6" fill="url(#paint0_linear_586_42)" stroke="url(#paint1_linear_586_42)" stroke-width="3"/>
+<path id="Vector" d="M28.7969 52.2812C32.1437 52.2812 34.8438 49.5812 34.8438 46.2344V40.1875H28.7969C25.45 40.1875 22.75 42.8875 22.75 46.2344C22.75 49.5812 25.45 52.2812 28.7969 52.2812ZM22.75 34.1406C22.75 30.7938 25.45 28.0938 28.7969 28.0938H34.8438V40.1875H28.7969C25.45 40.1875 22.75 37.4875 22.75 34.1406ZM22.75 22.0469C22.75 18.7 25.45 16 28.7969 16H34.8438V28.0938H28.7969C25.45 28.0938 22.75 25.3937 22.75 22.0469ZM34.8438 16H40.8906C44.2375 16 46.9375 18.7 46.9375 22.0469C46.9375 25.3937 44.2375 28.0938 40.8906 28.0938H34.8438V16ZM46.9375 34.1406C46.9375 37.4875 44.2375 40.1875 40.8906 40.1875C37.5438 40.1875 34.8438 37.4875 34.8438 34.1406C34.8438 30.7938 37.5438 28.0938 40.8906 28.0938C44.2375 28.0938 46.9375 30.7938 46.9375 34.1406Z" fill="#F1F1F1"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_586_42" x1="66" y1="66" x2="2" y2="2" gradientUnits="userSpaceOnUse">
+<stop stop-color="#732EB8"/>
+<stop offset="1" stop-color="#732EB8" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_586_42" x1="66" y1="66" x2="2" y2="2" gradientUnits="userSpaceOnUse">
+<stop stop-color="#732EB8"/>
+<stop offset="1" stop-color="#732EB8" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

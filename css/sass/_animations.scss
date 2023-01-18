@@ -25,26 +25,19 @@ main > p::after {
 
     .marquee-items {
         display: flex;
-        animation: marquee 24s linear infinite alternate;
     }
 
-    h3::after {
-        content: "";
-        display: inline-block;
-        // margin-left: 32px;
-        margin: 0 32px;
-        height: 32px;
-        width: 3px;
-        transform: translateY(4px);
-        background: $neutral-white;
-    }
+    h3 {
+        pointer-events: none;
 
-    @keyframes marquee {
-        0% {
-          transform: translateX(0);
+        &::after {
+            content: "";
+            display: inline-block;
+            margin: 0 32px;
+            height: 32px;
+            width: 3px;
+            transform: translateY(4px);
+            background: $neutral-white;
         }
-        100% {
-          transform: translateX(-100%);
-        }
-      }
+    }
 }
